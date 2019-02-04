@@ -26,9 +26,10 @@
     background-color: #4CAF50;
     color: white;
   }
+
   #filterUsers {
     background-image: url('searchicon.png'); 
-    background-position: 10px 12px; 
+    background-position: 10px 12px;
     background-repeat: no-repeat; 
     width: 100%; 
     font-size: 16px; 
@@ -44,4 +45,58 @@
     input{
         width:75%;
     }
+  }
+
+  #udh1{
+    background-color: #f2f2f2; 
+    text-align:center; 
+    color:black; 
+    width:100%; 
+    padding:0px; 
+    height:50px;
+  }
+
+  #udDiv{
+    width:700px; 
+    height:400px; 
+    padding:0 50px 100px 50px; 
+    box-sizing: border-box; 
+    margin: 0 auto; 
+    border: 1px solid green; 
+    margin-top:130px; 
+    background:#4CAF50; 
+    box-shadow: 20px 10px 20px 0 rgba(46,61,73,.15);
+  }
+
+  #udh2{
+    color: #200; 
+    font-family: tahoma, verdana, sans-serif; 
+    text-align:center;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  #pagination{
+    display: none;
+  }
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    /* margin: 0 4px;   */
+  }
+  
+  .active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
   }
