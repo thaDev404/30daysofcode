@@ -1,6 +1,6 @@
 function paginate(pageControl){
     let prevPageNo = parseInt(sessionStorage.getItem('pageNum'));
-    if (parseInt(pageControl.innerHtml == prevPageNo)){
+    if (parseInt(pageControl.innerHtml) == prevPageNo){
         return;
     }
     
