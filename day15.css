@@ -101,6 +101,6 @@
     background-color: #ddd;
   }
 
-  #next, #prev{
+  #next, #prev, .pagination a{
     cursor: pointer;
   }
