@@ -1,5 +1,8 @@
 function paginate(pageControl){
     let prevPageNo = parseInt(sessionStorage.getItem('pageNum'));
+    if (pageControl.id == prevPageNo){
+        return;
+    }
     if (pageControl.id == 'prev' && prevPageNo > 1){
         sessionStorage.setItem('pageNum', prevPageNo - 1);
     }
