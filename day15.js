@@ -4,7 +4,7 @@ function paginate(pageControl){
         return;
     }
     
-    if (pageControl.id == 'prev' && prevPageNo > 1){
+    else if (pageControl.id == 'prev' && prevPageNo > 1){
         sessionStorage.setItem('pageNum', prevPageNo - 1);
     }
     else if(pageControl.id == 'next' && prevPageNo < 10){
